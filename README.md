@@ -3,16 +3,16 @@ Virtual Memory Simulator C++
 
 To Run Our Code, it will take 5 parameters as following:
 
-• P1: Size of pages, i.e., # of memory locations on each page.
-• P2: FIFO, LRU, or Clock for type of page replacement algorithms:
-  o FIFO: First-in, First-Out
-  o LRU: Least Recently Used
-  o Clock: Clock Page Replacement
+• P1: Size of pages, i.e., # of memory locations on each page. <br/>
+• P2: FIFO, LRU, or Clock for type of page replacement algorithms:<br/>
+  o FIFO: First-in, First-Out<br/>
+  o LRU: Least Recently Used<br/>
+  o Clock: Clock Page Replacement<br/>
 • P3: flag to turn on/off pre-paging. If pre-paging is not turned on, we use demand paging by
-default.
-  o +: turn it on
-  o -: turn it off
-A typical command line should look like this:
+default.<br/>
+  o +: turn it on<br/>
+  o -: turn it off<br/>
+A typical command line should look like this:<br/>
   ```./VMsimulator plist.txt ptrace.txt 2 FIFO +```
   
 
